@@ -1,20 +1,15 @@
 /*section_2*/
 
 .offers {
-    padding-top: 80px;
     padding-bottom: 80px;
 }
 
 .offers h1 {
-    width: 206px;
-    height: 40px;
     font-family: 'Cormorant', sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
     text-align: center;
-    padding-top: 80px;
-    padding-left: 537px;
 }
 
 .black_color {
@@ -23,6 +18,11 @@
 
 .orange_color {
     color: #FF8126;
+}
+
+.offers_main {
+    background: #F7F5F0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
 }
 
 .offers img {
