@@ -1,0 +1,49 @@
+
+
+/*section_3*/
+
+
+.why_choose{
+    padding-top: 80px;
+}
+.d-flex_why_choose{
+    display: flex;
+    justify-content: space-between;
+}
+.why_choose h3{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #1F1F1F;
+    margin-bottom: 40px;
+}
+.why_choose span{
+    color: #FF8126;
+}
+.dignity{
+    max-width: 210px;
+}
+.why_choose .dignity img{
+    margin-bottom: 21px;
+}
+.why_choose .dignity h4{
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #1F1F1F;
+    margin-bottom: 10px;
+}
+.why_choose .dignity p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.0015em;
+    color: #1F1F1F;
+}
