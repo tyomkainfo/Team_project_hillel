@@ -1,0 +1,74 @@
+.who_makes {
+    margin-top: 80px;
+    margin-bottom: 78px;
+}
+
+
+.who_makes h2 {
+    font-family: 'Cormorant';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: black;
+    padding-bottom: 20px;
+    }
+
+.who_makes h2 span{
+    color: #FF8126;
+}
+
+.who_makes p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1F1F;
+    margin-bottom: 40px;
+    max-width: 569px;
+}
+
+.who_makes ul {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.who_makes ul li:before {
+    content: " ";
+    text-align: center;
+    background-image: url("../images/check_mark.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #FF8126;
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    margin-right: 15px;
+    display: inline-block;
+}
+.who_makes ul li {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1F1F;
+    padding-bottom: 20px;
+    max-width: 530px;
+}
+
+.who_makes ul li:last-of-type {
+    margin-bottom: 30px;
+}
+
+.who_makes a {
+    background-color: #FF8126;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 8px 30px 10px;
+    max-width: 270px;
+
+}
