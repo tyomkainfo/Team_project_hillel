@@ -1,0 +1,28 @@
+.tell_a_friend {
+  background-image: url(../images/bckground_tell.jpg);
+  padding: 60px 55px 160px;
+}
+.tell {
+  font-family: "Cormorant";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #1f1f1f;
+}
+.networks {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.tell_a_friend li {
+  margin-top: 40px;
+  margin-right: 30px;
+  margin-bottom: 60px;
+}
+.tell_a_friend li:first-child {
+  margin-left: 386px;
+}
+.tell_a_friend li:last-child {
+  margin-right: 386px;
+}
