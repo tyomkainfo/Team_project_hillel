@@ -1,0 +1,60 @@
+.surprise{
+    margin-bottom: 80px;
+}
+.surprise_text .some{
+    font-family: 'Cormorant', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FF8126;
+}
+.surprise_text .home{
+    font-family: 'Cormorant', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: black;
+    margin-bottom: 20px;
+}
+.surprise_text .have{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1F1F;
+    margin-bottom: 24px;
+}
+.surprise_text .buy{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F1F1F;
+    margin-bottom: 30px;
+}
+.surprise_text a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #FF8126;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px 31px;
+    display: inline-block;
+    transition: 0.5s;
+
+}
+.surprise img{
+    padding-right: 31px;
+}
+.surprise_text a:hover {
+    background-color: #974f1d;
+    transform: scale(1.1);
+}
