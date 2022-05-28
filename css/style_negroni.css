@@ -1,0 +1,63 @@
+header {
+    background: #fff;
+    padding: 20px 54px 20px 55px;
+
+}
+.h3_gift{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #1F1F1F;
+    align-items: center;
+    padding: 15px 460px;
+    background-color: #C2E8CE;
+}
+.logo_header{
+    padding-right: 40px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul li{
+    margin: 0 20px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #1F1F1F;
+}
+header nav li a:hover{
+    color: aqua;
+}
+
+
+header nav li a:after{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f078";
+    margin-left: 7px;
+    font-size: 10px;
+}
+
+.shevron_none:after{
+    content: "";
+}
+.font-nav{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+
+}
+
+.top_icones{
+    list-style: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}
