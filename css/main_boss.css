@@ -1,0 +1,42 @@
+.charity_partner{
+    background-image: url("/images/background_vegetables.jpg");
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.charity_partner h2{
+    font-family: 'Cormorant', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.charity_partner img{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.charity_partner .learn_more{
+    display: inline-block;
+    background: #FF8126;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 8px 31px;
+}
+
+.container_bakery{
+    margin: auto;
+    max-width: 770px;
+    text-align: center;
+}
