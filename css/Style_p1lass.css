@@ -1,18 +1,17 @@
-footer {
+footer{
     padding: 60px 0;
 }
 
-.lists_footer.d-flex {
+.lists_footer.d-flex{
     align-items: inherit;
-}
-footer .lists_footer .box.d-flex{
-    align-items: inherit;
-}
-.lists_footer li {
-    list-style: none;
 }
 
+.lists_footer li{
+    list-style: none;
+
+}
 .lists_footer li:first-of-type{
+    padding-top: 15px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -20,10 +19,7 @@ footer .lists_footer .box.d-flex{
     line-height: 22px;
     color: #1F1F1F;
 }
-.footer_li_margin{
-    margin-bottom: 15px;
-}
-.lists_footer li a {
+.lists_footer li a{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
