@@ -1,38 +1,18 @@
-footer{
-    display: flex;
-    justify-content: center;
+footer {
+    padding: 60px 0;
 }
 
-footer .container{
-    display: flex;
-    justify-content: space-between;
-    max-width: 1170px;
-
+.lists_footer.d-flex {
+    align-items: inherit;
 }
-footer .container .logo_footer{
-
-    margin-right: 87px;
+footer .lists_footer .box.d-flex{
+    align-items: inherit;
 }
-
-
-.lists_footer{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.lists_footer .list_ocassions, .list_all_categoties, .list_gifts, .list_our_brands{
-    max-width: 171px;
-    margin-right:83px;
-
-}
-
-.lists_footer li{
+.lists_footer li {
     list-style: none;
-
 }
+
 .lists_footer li:first-of-type{
-    margin-bottom: 15px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -40,7 +20,10 @@ footer .container .logo_footer{
     line-height: 22px;
     color: #1F1F1F;
 }
-.lists_footer li a{
+.footer_li_margin{
+    margin-bottom: 15px;
+}
+.lists_footer li a {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -48,5 +31,4 @@ footer .container .logo_footer{
     line-height: 22px;
     color: #3D3D3D;
     text-decoration: none;
-
 }
