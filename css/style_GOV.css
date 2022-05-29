@@ -1,0 +1,38 @@
+.instagram{
+    padding-top: 80px;
+}
+.d-flex_instagram{
+    display: flex;
+    justify-content: space-between;
+}
+.instagram h3{
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    font-family: Cormorant;
+}
+.instagram span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FF8126;
+    margin-bottom: 40px;
+    font-family: Cormorant;
+}
+.vegetables{
+    max-width: 156px;
+}
+.instagram .vegetables img{
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.container {
+    margin-right: 115px;
+    margin-left: 115px;
+}
