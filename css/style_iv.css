@@ -1,0 +1,280 @@
+
+@media only screen and (max-width: 926px) {
+    .container{
+        max-width: 880px;
+    }
+
+    /*=====>>>header*/
+
+    .h3_gift{
+        padding: 15px;
+
+    }
+
+    header{
+        padding: 20px 0;
+        border-bottom: 1px solid rgba(138, 138, 138, 0.16);
+    }
+
+    header nav{
+        order: 1;
+        margin-bottom: 25px;
+        width: 100%;
+
+    }
+
+    header .container{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .font-nav{
+        justify-content: space-around;
+    }
+
+    .font-nav li{
+        margin: 0;
+    }
+
+    .logo_header{
+        padding-right: 0;
+    }
+
+    /*=====>>>sectiom_2*/
+
+    .offers{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .offers h1{
+        margin: 0 0 25px 0;
+    }
+
+    .offers .offers_main{
+        flex-wrap: wrap;
+        background: none;
+        box-shadow: none;
+        justify-content: space-around;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .offers_main div{
+        max-width: 270px;
+        background: #F7F5F0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+        text-align: center;
+        padding-bottom: 37px;
+        margin-bottom: 30px;
+        overflow: hidden;
+    }
+
+    .offers_main div img{
+        padding-bottom: 0;
+        margin-bottom: 20px;
+    }
+
+    .offers_main div p{
+        height: inherit;
+        margin-bottom: 5px;
+    }
+
+    .offers_main div p:last-of-type{
+        margin-bottom: 20px;
+    }
+
+    .offers a{
+        position: inherit;
+        width:inherit;
+        max-height: inherit;
+        margin: 0;
+        padding: 6px 64px 7px;
+    }
+
+    /*=====>>>section_3*/
+
+    .why_choose{
+        padding-top: 0;
+        padding-bottom: 25px;
+    }
+
+    .d-flex_why_choose{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .dignity{
+        max-width: 154px;
+    }
+
+    .dignity img{
+        display: block;
+        margin: auto;
+    }
+
+    /*=====>>>section_4*/
+
+    .who_makes{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 35px;
+    }
+
+    .who_makes .container.d-flex{
+        flex-wrap: wrap;
+    }
+
+    .who_makes .container.d-flex div{
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .charity_partner{
+        margin-top: 0;
+    }
+
+    .who_makes img{
+        border-radius: 30px;
+        margin-bottom: 25px;
+    }
+
+
+}
+
+@media only screen and (max-width: 896px){
+    .container{
+        max-width: 850px;
+    }
+
+    /*=====>>>section_2*/
+
+    .offers .offers_main{
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 844px){
+
+    .container{
+        max-width: 770px;
+    }
+
+    /*=====>>>section_3*/
+
+    .dignity{
+        max-width: 210px;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 812px){
+
+    .container{
+        max-width: 770px;
+    }
+}
+
+@media only screen and (max-width: 780px){
+
+    .container{
+        max-width: 740px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width: 428px){
+
+    .container{
+        max-width: 400px;
+    }
+
+    /*=====>>>header*/
+
+    header{
+        padding-bottom: 0;
+    }
+
+    .font-nav{
+        padding-top: 10px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .font-nav li{
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+
+    .container{
+        max-width: 350px;
+        align-items: inherit;
+    }
+
+    header div a{
+        order: 2;
+    }
+
+    header nav{
+        order: 1;
+        display: block;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 0;
+        background: url("../images/bars_menu.png");
+        background-size: 100%;
+        border: 1px solid rgba(138, 138, 138, 0.16);
+        border-radius: 20px;
+        position: relative;
+    }
+
+    header nav ul li a:hover{
+        color: #FF8126;
+    }
+
+    header nav:hover ul{
+        display: block;
+        position: absolute;
+        background-color: whitesmoke;
+        width: 150px;
+        top: 70px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    header nav .font-nav{
+        display: none;
+    }
+
+    header ul{
+        order: 3;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 360px){
+
+    .container{
+        max-width: 340px;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px){
+    .container{
+        max-width: 290px;
+    }
+}
