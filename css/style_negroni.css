@@ -3,7 +3,8 @@ header {
     padding: 20px 54px 20px 55px;
 
 }
-.h3_gift{
+.promo_banner{
+    background: #C2E8CE;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -11,9 +12,38 @@ header {
     line-height: 21px;
     text-align: center;
     color: #1F1F1F;
-    align-items: center;
-    padding: 15px 460px;
-    background-color: #C2E8CE;
+    padding: 15px 0;
+}
+.close_position{
+    position: relative;
+}
+.close{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+.close:before{
+    transform: rotate(-45deg);
+    content: "";
+    background: #1F1F1F;
+    top: 50%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+}
+.close:after{
+    content: "";
+    background: #1F1F1F;
+    top: 50%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    transform: rotate(45deg);
+
 }
 .logo_header{
     padding-right: 40px;
@@ -60,4 +90,32 @@ header nav li a:after{
     list-style: none;
     margin-right: 5px;
     margin-left: 5px;
+}
+.cart {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid #BFBFBF;
+    position: relative;
+}
+.cart a{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+.cart_ellipse{
+    position: absolute;
+    left: 45px;
+}
+.cart_p{
+    position: absolute;
+    left: 50px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 14px;
+    color: #FFFFFF;
 }
