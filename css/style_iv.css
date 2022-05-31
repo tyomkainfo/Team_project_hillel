@@ -266,7 +266,14 @@
     }
 
     .dignity{
-        max-width: 210px;
+        max-width: 350px;
+        text-align: center;
+        border-bottom: solid 1px rgba(113, 113, 113, 0.24);
+        padding-bottom: 10px;
+    }
+
+    .dignity br{
+        display: none;
     }
 }
 
