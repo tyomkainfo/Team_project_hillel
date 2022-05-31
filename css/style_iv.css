@@ -205,6 +205,10 @@
 
     /*=====>>>header*/
 
+    .promo_banner{
+        font-size: 12px;
+    }
+
     header{
         padding-bottom: 0;
     }
