@@ -131,6 +131,10 @@
         text-align: center;
     }
 
+    .who_makes ul li{
+        text-align: left;
+    }
+
     .charity_partner{
         margin-top: 0;
     }
@@ -196,9 +200,14 @@
 
     .container{
         max-width: 400px;
+        flex-wrap: wrap;
     }
 
     /*=====>>>header*/
+
+    .promo_banner{
+        font-size: 12px;
+    }
 
     header{
         padding-bottom: 0;
@@ -214,24 +223,16 @@
     .font-nav li{
         margin-bottom: 10px;
     }
-}
-
-@media only screen and (max-width: 375px){
-
-    .container{
-        max-width: 350px;
-        align-items: inherit;
-    }
 
     header div a{
-        order: 2;
+        order: 1;
     }
 
     header nav{
-        order: 1;
+        order: 2;
         display: block;
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
         margin-bottom: 0;
         background: url("../images/bars_menu.png");
         background-size: 100%;
@@ -249,9 +250,11 @@
         position: absolute;
         background-color: whitesmoke;
         width: 150px;
-        top: 70px;
+        top: 82px;
+        right: 10px;
         border-radius: 15px;
         text-align: center;
+        z-index: 10;
     }
 
     header nav .font-nav{
@@ -260,7 +263,75 @@
 
     header ul{
         order: 3;
-        flex-direction: column-reverse;
+    }
+
+    .dignity{
+        max-width: 210px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .container{
+        max-width: 390px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+
+    .container{
+        max-width: 350px;
+        align-items: inherit;
+
+    }
+
+    header div a{
+        order: 1;
+    }
+
+    header nav{
+        order: 2;
+        display: block;
+        width: 70px;
+        height: 70px;
+        margin-bottom: 0;
+        background: url("../images/bars_menu.png");
+        background-size: 100%;
+        border: 1px solid rgba(138, 138, 138, 0.16);
+        border-radius: 20px;
+        position: relative;
+    }
+
+    header nav ul li a:active{
+        color: #FF8126;
+    }
+
+    header nav:active ul{
+        display: block;
+        position: absolute;
+        background-color: whitesmoke;
+        width: 150px;
+        top: 72px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    header nav .font-nav{
+        display: none;
+    }
+
+    /*SECTION_2*/
+    .offers h1{
+        font-size: 34px;
+    }
+
+    /*SECTION_3*/
+    .why_choose h3{
+        font-size: 34px;
+    }
+
+    /*SECTION_4*/
+    .who_makes h2{
+        font-size: 34px;
     }
 }
 
@@ -269,12 +340,10 @@
     .container{
         max-width: 340px;
     }
-
-
 }
 
 @media only screen and (max-width: 320px){
     .container{
-        max-width: 290px;
+        max-width: 300px;
     }
 }
