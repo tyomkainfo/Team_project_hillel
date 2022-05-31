@@ -1,0 +1,45 @@
+.Support{
+    font-family: "Cormorant";
+    font-size: 50px;
+    line-height: 60px;
+    margin: 125px 0px 5px 0px;
+}
+
+.Discover{
+    font-family: "Poppins";
+    font-size: 26px;
+    line-height: 39px;
+    font-weight: lighter;
+}
+
+.stories_container{
+    max-width: 1178px;
+    max-height: 500px;
+    margin: 0 auto;
+    padding: 10px 0px 0px 55px;
+    position: center;
+}
+
+.stories{
+    min-width: 100%;
+    min-height: 500px;
+    background-image: url("../images/stories_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-top: 125px;
+    margin-bottom: 80px;
+}
+
+.stories_button{
+    padding: 8px 36px 10px 36px;
+    background-color: #FF8126;
+    border-radius: 5px;
+    font-family: "Poppins";
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 83px;
+    margin-left: 4px;
+}
