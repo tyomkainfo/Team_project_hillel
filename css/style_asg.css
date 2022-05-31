@@ -507,7 +507,7 @@
         max-width: 300px;
     }
 
-    footer ul li:hover ul {
+    footer ul li:focus ul {
         display: block;
         position: absolute;
         left: 130px;
