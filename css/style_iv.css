@@ -43,7 +43,6 @@
 
     .logo_header{
         padding-right: 0;
-        margin-bottom: 10px;
     }
 
     header ul li{
@@ -234,6 +233,10 @@
         margin-bottom: 10px;
     }
 
+    .logo_header{
+        margin-bottom: 10px;
+    }
+
     header div a{
         order: 1;
     }
@@ -269,6 +272,11 @@
 
     header ul{
         order: 3;
+        width: 100%;
+    }
+
+    header ul:last-child.d-flex{
+        justify-content: space-around;
     }
 
     .dignity{
