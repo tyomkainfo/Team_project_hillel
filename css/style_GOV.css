@@ -1,9 +1,6 @@
 .instagram{
     padding-top: 80px;
-}
-.d-flex_instagram{
-    display: flex;
-    justify-content: space-between;
+    padding-bottom: 80px;
 }
 .instagram h3{
     color: black;
@@ -12,6 +9,7 @@
     line-height: 48px;
     text-align: center;
     font-family: Cormorant;
+    margin-bottom: 40px;
 }
 .instagram span{
     font-style: normal;
@@ -25,10 +23,11 @@
     font-family: Cormorant;
 }
 .vegetables{
-    max-width: 156px;
-}
-.instagram .vegetables img{
+    max-width: 126px;
     padding: 15px;
     background: #FFFFFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.instagram .vegetables img{
+width: 100%;
 }
