@@ -57,6 +57,9 @@
     .instagram {
         padding: 0 0 40px;
     }
+    .d-flex_instagram{
+        max-width: 880px;
+    }
 
     .instagram h3 {
         margin-bottom: 20px;
@@ -179,6 +182,9 @@
     }
 
     /*INSTAGRAM*/
+    .d-flex_instagram{
+        max-width: 850px;
+    }
     .vegetables {
         max-width: 96px;
     }
@@ -203,7 +209,10 @@
     .container_bakery {
         max-width: 770px;
     }
-
+    /*INSTAGRAM*/
+    .d-flex_instagram{
+        max-width: 770px;
+    }
     /*TELL A FRIEND*/
     .networks {
         max-width: 770px;
@@ -232,6 +241,10 @@
     .container_bakery {
         max-width: 740px;
     }
+    /*INSTAGRAM*/
+    .d-flex_instagram{
+        max-width: 740px;
+    }
 
     /*TELL A FRIEND*/
     .networks {
@@ -255,32 +268,10 @@
     }
 
     /*INSTAGRAM*/
-    .d-flex_instagram div:last-child {
-        display: none;
-    }
 
-    /*TELL A FRIEND*/
-    .networks {
+    .d-flex_instagram{
         max-width: 720px;
     }
-
-    /*FOOTER*/
-    footer .container {
-        max-width: 720px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-
-    /*OUR PARTNER*/
-    .container_bakery {
-        max-width: 720px;
-    }
-
-    /*INSTAGRAM*/
     .d-flex_instagram div:last-child {
         display: none;
     }
@@ -317,10 +308,17 @@
     }
 
     /*INSTAGRAM*/
+    .instagram h3{
+        max-width: 390px;
+        margin: auto;
+    }
     .instagram h3 span {
         font-size: 36px;
     }
-
+    .d-flex_instagram{
+        margin-top: 20px;
+        max-width: 400px;
+    }
     .d-flex_instagram div:nth-child(4) {
         display: none;
     }
@@ -394,7 +392,10 @@
     .container_bakery {
         max-width: 390px;
     }
-
+    /*INSTAGRAM*/
+    .d-flex_instagram{
+        max-width: 390px;
+    }
     /*TELL A FRIEND*/
 
     .networks {
@@ -428,6 +429,9 @@
         font-size: 34px;
     }
 
+    .d-flex_instagram{
+        max-width: 350px;
+    }
     .instagram h3 span {
         font-size: 34px;
     }
@@ -461,6 +465,11 @@
     .container_bakery {
         max-width: 340px;
     }
+    /*INSTAGRAM*/
+    .d-flex_instagram{
+        max-width: 340px;
+    }
+    /*TELL A FRIEND*/
     .networks {
         max-width: 320px;
     }
@@ -487,6 +496,9 @@
     /*INSTAGRAM*/
     .instagram h3 span {
         font-size: 29px;
+    }
+    .d-flex_instagram{
+        max-width: 300px;
     }
 
     /*TELL A FRIEND*/
