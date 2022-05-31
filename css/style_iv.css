@@ -246,9 +246,11 @@
         position: absolute;
         background-color: whitesmoke;
         width: 150px;
-        top: 72px;
+        top: 82px;
+        right: 10px;
         border-radius: 15px;
         text-align: center;
+        z-index: 10;
     }
 
     header nav .font-nav{
