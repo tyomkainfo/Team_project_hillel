@@ -237,11 +237,11 @@
         position: relative;
     }
 
-    header nav ul li a:active{
+    header nav ul li a:hover{
         color: #FF8126;
     }
 
-    header nav:active ul{
+    header nav:hover ul{
         display: block;
         position: absolute;
         background-color: whitesmoke;
