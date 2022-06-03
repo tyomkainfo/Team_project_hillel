@@ -1,4 +1,4 @@
-@media only screen and (max-width: 926px) {
+@media only screen and (max-width: 927px) {
     .container {
         max-width: 880px;
     }
@@ -38,6 +38,7 @@
     .surprise .container div:first-of-type img {
         padding: 0;
         margin-bottom: 20px;
+        width: 880px;
     }
 
     .surprise .container div:first-of-type {
@@ -84,13 +85,9 @@
         background: #FFFFFF;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     }
+        /*INSTAGRAM*/
 
-    .d-flex_instagram {
-        align-items: center;
-        margin: auto;
-    }
-
-    .instagram div.d-flex_instagram::before {
+    .vegetables_box::before {
         content: "";
         display: flex;
         width: 30px;
@@ -99,7 +96,7 @@
         background-size: cover;
     }
 
-    .instagram div.d-flex_instagram::after {
+    .vegetables_box::after {
         content: "";
         display: flex;
         width: 30px;
@@ -123,7 +120,7 @@
         max-width: 880px;
         flex-wrap: wrap;
         margin: auto;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .tell_a_friend li {
@@ -171,7 +168,7 @@
     /*FOOTER END*/
 }
 
-@media only screen and (max-width: 896px) {
+@media only screen and (max-width: 897px) {
     .container {
         max-width: 850px;
     }
@@ -180,15 +177,10 @@
     .container_bakery {
         max-width: 850px;
     }
-
-    /*INSTAGRAM*/
-    .d-flex_instagram{
-        max-width: 850px;
+    /*SURPRISE*/
+    .surprise .container div:first-of-type img{
+        width: 850px;
     }
-    .vegetables {
-        max-width: 96px;
-    }
-
     /*TELL A FRIEND*/
     .networks {
         max-width: 850px;
@@ -200,7 +192,7 @@
     }
 }
 
-@media only screen and (max-width: 844px) {
+@media only screen and (max-width: 846px) {
     .container {
         max-width: 770px;
     }
@@ -209,9 +201,13 @@
     .container_bakery {
         max-width: 770px;
     }
+    /*SURPRISE*/
+    .surprise .container div:first-of-type img{
+        width: 770px;
+    }
     /*INSTAGRAM*/
-    .d-flex_instagram{
-        max-width: 770px;
+    .vegetables_box .vegetables:last-of-type{
+        display: none;
     }
     /*TELL A FRIEND*/
     .networks {
@@ -224,7 +220,7 @@
     }
 }
 
-@media only screen and (max-width: 812px) {
+@media only screen and (max-width: 813px) {
 
     /*FOOTER*/
     footer .container {
@@ -232,7 +228,7 @@
     }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 781px) {
     .container {
         max-width: 740px;
     }
@@ -241,11 +237,9 @@
     .container_bakery {
         max-width: 740px;
     }
-    /*INSTAGRAM*/
-    .d-flex_instagram{
-        max-width: 740px;
+    .surprise .container div:first-of-type img{
+        width: 740px;
     }
-
     /*TELL A FRIEND*/
     .networks {
         max-width: 740px;
@@ -257,7 +251,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
     .container {
         max-width: 720px;
     }
@@ -266,16 +260,9 @@
     .container_bakery {
         max-width: 720px;
     }
-
-    /*INSTAGRAM*/
-
-    .d-flex_instagram{
-        max-width: 720px;
+    .surprise .container div:first-of-type img{
+        width: 720px;
     }
-    .d-flex_instagram div:last-child {
-        display: none;
-    }
-
     /*TELL A FRIEND*/
     .networks {
         max-width: 720px;
@@ -287,7 +274,7 @@
     }
 }
 
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 429px) {
     .container {
         max-width: 400px;
     }
@@ -308,22 +295,13 @@
     }
 
     /*INSTAGRAM*/
-    .instagram h3{
-        max-width: 390px;
-        margin: auto;
-    }
-    .instagram h3 span {
+    .instagram h3 span{
         font-size: 36px;
     }
-    .d-flex_instagram{
-        margin-top: 20px;
-        max-width: 400px;
-    }
-    .d-flex_instagram div:nth-child(4) {
+    .vegetables_box .vegetables:nth-of-type(4) {
         display: none;
     }
-
-    .d-flex_instagram div:nth-child(3) {
+    .vegetables_box .vegetables:nth-of-type(3) {
         display: none;
     }
 
@@ -383,7 +361,7 @@
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 415px) {
     .container {
         max-width: 390px;
     }
@@ -392,12 +370,8 @@
     .container_bakery {
         max-width: 390px;
     }
-    /*INSTAGRAM*/
-    .d-flex_instagram{
-        max-width: 390px;
-    }
-    /*TELL A FRIEND*/
 
+    /*TELL A FRIEND*/
     .networks {
         max-width: 390px;
     }
@@ -418,22 +392,19 @@
     .container {
         max-width: 350px;
     }
-
     /*OUR PARTNER*/
     .container_bakery {
         max-width: 350px;
     }
 
     /*INSTAGRAM*/
-    .instagram h3 {
-        font-size: 34px;
+    .vegetables {
+        max-width: 115px;
+        padding: 10px;
     }
 
-    .d-flex_instagram{
-        max-width: 350px;
-    }
     .instagram h3 span {
-        font-size: 34px;
+        font-size: 33px;
     }
 
     /*SURPRISE*/
@@ -456,7 +427,7 @@
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 361px) {
     .container {
         max-width: 340px;
     }
@@ -466,20 +437,20 @@
         max-width: 340px;
     }
     /*INSTAGRAM*/
-    .d-flex_instagram{
-        max-width: 340px;
-    }
+.vegetables{
+    max-width: 90px;
+}
     /*TELL A FRIEND*/
     .networks {
-        max-width: 320px;
+        max-width: 340px;
     }
     /*FOOTER*/
     footer .container {
-        max-width: 320px;
+        max-width: 340px;
     }
 
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
     .container {
         max-width: 300px;
     }
@@ -496,9 +467,6 @@
     /*INSTAGRAM*/
     .instagram h3 span {
         font-size: 29px;
-    }
-    .d-flex_instagram{
-        max-width: 300px;
     }
 
     /*TELL A FRIEND*/
