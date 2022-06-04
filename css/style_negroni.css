@@ -105,13 +105,19 @@ header nav li a:after{
     margin-left: -15px;
     margin-top: -15px;
 }
-.cart_ellipse{
-    position: absolute;
-    left: 45px;
-}
+
 .cart_p{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #FF8126;
     position: absolute;
-    left: 50px;
+    left: 40px;
+    display: flex;
+    justify-content: center;
+}
+.cart_p p{
+
     font-family: 'poppins';
     font-style: normal;
     font-weight: 500;
